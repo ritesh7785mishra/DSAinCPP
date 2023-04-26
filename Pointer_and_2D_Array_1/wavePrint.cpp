@@ -26,6 +26,8 @@ int main()
 				rowNo++;
 				//  [rowNo][colNo]
 			}
+
+			cout<<endl;
 		}
 
 		else 
@@ -37,6 +39,8 @@ int main()
 				cout<<arr[rowNo][colNo]<<" ";
 				rowNo--;
 			}
+
+			cout<<endl;
 		}
 		colNo++;
 	}

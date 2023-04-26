@@ -5,9 +5,9 @@ int main()
 	string str="Hello";
 
 
-	cout<<str<<endl;
+	// cout<<str<<endl;
 
-	cout<<(str.substr(0,3));
+	// cout<<(str.substr());
 
 	string a="Hello";
 	string b="Sir";
@@ -15,9 +15,9 @@ int main()
 	string c=a+b;
 
 
-	for(int i=0;i<str.length();i++)
+	for(int i=0;i<c.length();i++)
 	{
-		cout<<str[i];
+		cout<<c[i];
 	}
 
 	// cout<<endl<<c;
